@@ -1,0 +1,102 @@
+#paper {
+    border: solid 4px #fc336e;
+    width: 70%;
+    padding: 3px 50px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.border {
+    border: solid 1px darkgray;
+    margin: 5px 0 10px 0;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.paper-info {
+    width: 30%;
+    margin-right: 22px;
+    display: inline-block;
+    height: 24px;
+}
+
+.border:last-child {
+    margin-right: 0;
+}
+
+.paper-info span {
+    font-size: 13px;
+!important;
+}
+
+input {
+    border-radius: 4px;
+    border: solid 1px darkgray;
+    height: 24px;
+    padding: 0;
+}
+
+.paper-info label {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.no-border {
+    border: none;
+}
+
+form {
+    margin-top: 18px;
+}
+
+.paperQuizze {
+    border: solid 1px lightgray;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    padding-bottom: 20px;
+}
+
+.paperQuizze h4 {
+    padding: 15px 0 15px 10px;
+    margin: 0;
+    background-color: lightgrey;
+    font-size: 18px;
+    line-height: 18px;
+}
+
+.quizzes {
+    padding: 10px 0 5px 35px;
+}
+
+.quizze-label {
+    margin-left: 14px;
+    margin-top: 10px;
+}
+
+.quizze-label input {
+    margin: 5px 0 10px 0;
+}
+
+.quizze-label div {
+    height: 26px;
+    line-height: 26px;
+}
+
+.quizze-label input {
+    vertical-align: middle;
+}
+
+.quizze-label textarea {
+    width: 93%;
+    margin-top: 10px;
+}
+
+#submit {
+    width: 70px;
+    height: 30px;
+    background-color: #438eb9;
+    color: #fff;
+    margin-left: 46%;
+}

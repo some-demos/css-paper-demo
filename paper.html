@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="index.css"/>
+    <title>UML统一建模语言试题1</title>
+</head>
+
+<body>
+<div id="paper">
+    <div><h1>统一建模语言理论测试</h1></div>
+    <header>
+        <div class="border">
+            <div class="paper-info"><label>考试科目：</label> <span>统一建模语言UML</span></div>
+            <div class="paper-info"><label>时间：</label> <span>100分钟</span></div>
+            <div class="paper-info"><label>得分：</label></div>
+        </div>
+        <div class="border">
+            <div class="paper-info"><label>班级(必填)：<input type="text" name="班级"> </label></div>
+            <div class="paper-info"><label>学号(必填)：<input type="text" name="学号"> </label></div>
+            <div class="paper-info"><label>姓名(必填)：<input type="text" name="姓名"> </label></div>
+        </div>
+    </header>
+
+    <form>
+        <section class="paperQuizze">
+            <h4>
+                一、填空题（共20分，每空5分）
+            </h4>
+            <div class="quizzes">
+                <div>1. UML 的中文全称是:
+                    <br/>
+                    <label class="quizze-label"><input type="text" id="fillOne"></label>
+                </div>
+
+                <div>2. 对象最突出的特征是:
+                    <br/>
+                    <label class="quizze-label">
+                        <input type="text" id="fillTwo">
+                        <input type="text" id="fillThree">
+                        <input type="text" id="fillFour">
+                    </label>
+                </div>
+            </div>
+        </section>
+
+        <section class="paperQuizze">
+            <h4>二、选择题（每题10分，共20分）</h4>
+            <div class="quizzes">
+                <div> 1.UML 与软件工程的关系是:</div>
+                <div class="quizze-label">
+                    <div><input type="radio" name="select" value="A" class="middle"/> UML 就是软件工程</div>
+                    <!--<br/>-->
+                    <div>
+                        <input type="radio" name="select" value="B" id="no1correctAnswer"/>
+                        UML 参与到软件工程中软件开发过程的几个阶段
+                    </div>
+                    <div>
+                        <input type="radio" name="select" value="C"/> UML 与软件工程无关
+                    </div>
+                    <div>
+                        <input type="radio" name="select" value="D"/> UML 是软件工程的一部分
+                    </div>
+                </div>
+            </div>
+            <div class="quizzes">
+                <div> 2.Java 语言支持:</div>
+                <div class="quizze-label">
+                    <div><input type="radio" name="select" value="A" id="no2correctAnswer"/> 单继承</div>
+                    <div><input type="radio" name="select" value="B"/> 多继承</div>
+                    <div><input type="radio" name="select" value="C"/> 单继承和多继承都支持</div>
+                    <div><input type="radio" name="select" value="D"/> 单继承和多继承都不支持</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="paperQuizze">
+            <h4>三、多选题（每题10分，共20分）</h4>
+            <div class="quizzes">
+                <div> 1. 用例的粒度分为以下哪三种</div>
+                <div class="quizze-label">
+                    <div><input type="checkbox" name="A" id="mutipleOne_1"/> 概述级</div>
+                    <div><input type="checkbox" name="B" id="mutipleOne_2"/> 需求级</div>
+                    <div><input type="checkbox" name="C" id="falseAnswer1"/> 用户目标级</div>
+                    <div><input type="checkbox" name="D" id="mutipleOne_3"/> 子功能级</div>
+                </div>
+            </div>
+            <div class="quizzes">
+                <div> 2. 类图由以下哪三部分组成</div>
+                <div class="quizze-label">
+                    <div><input type="checkbox" name="A" id="mutipleTwo_1"/> 名称(Name)</div>
+                    <div><input type="checkbox" name="B" id="mutipleTwo_2"/> 属性(Attribute)</div>
+                    <div><input type="checkbox" name="C" id="mutipleTwo_3"/> 操作(Operation)</div>
+                    <div><input type="checkbox" name="D" id="falseAnswer2"/> 方法(Function)</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="paperQuizze">
+            <h4>四、判断题 （每题10分，共20分）</h4>
+            <div class="quizzes">
+                1. 用例图只是用于和客户交流和沟通的,用于确定需求。
+                <label class="quizze-label">
+                    <input type="radio" name="select"/> 正确
+                    <input type="radio" name="select" id="correctAnswer1"/> 错误
+                </label>
+            </div>
+            <div class="quizzes">
+                2. 在状态图中,终止状态在一个状态图中允许有任意多个。
+                <label class="quizze-label">
+                    <input type="radio" name="select" id="correctAnswer2"/> 正确
+                    <input type="radio" name="select"/> 错误
+                </label>
+            </div>
+        </section>
+
+        <section class="paperQuizze">
+            <h4>五 、简 答 题 ( 共 20 分 )</h4>
+            <div class="quizzes">
+                <div> 1. 简述什么是模型以及模型的表现形式?</div>
+                <label class="quizze-label">
+                    <textarea cols="50" rows="10" id="shortText" name="contactus"></textarea>
+                </label>
+            </div>
+        </section>
+        <footer>
+            <input type="button" name="submit" value="计算分数" id="submit"/>
+        </footer>
+    </form>
+</div>
+</body>
+</html>
